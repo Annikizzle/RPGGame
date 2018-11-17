@@ -17,13 +17,12 @@ header {
   padding: auto;
 }
 .jumbotron {
-  font-size: 50px;
   background-image: url(../images/parchment.jpg);
   color: black;
   background-repeat:no-repeat;
   background-position:center;
-  background-size: cover;
-}
+  width: 100%;
+  }
 
 .characterWrapper {
   margin-right: auto;
@@ -31,7 +30,7 @@ header {
 }
 #gameMessage {
   text-align: center;
-  font-size: 10px;
+  font-size: 16px;
 }
 #choose-enemy-button {
   visibility: hidden;
@@ -73,13 +72,14 @@ header {
 .character-health {
   text-align: center;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /*      Fighting       */
 
 .attack {
   text-align: center;
+  font-size: 18px;
 }
 .action {
   margin: 15px 0px;
@@ -102,7 +102,7 @@ header {
 	padding: 5px;
 }
 .target-enemy {
-  background-color: black;
+  background-color: transparent;
   color: white;
 }
 
